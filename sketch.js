@@ -43,9 +43,12 @@ sling2.display();
 sling3.display();
 sling4.display();
 sling5.display();
+	
+textSize(30);
+text("Press the spacebar",100,100);
 }
 
 function keyPressed() { 
-	if (keyCode === UP_ARROW) 
+	if (keyCode === SPACEBAR) 
 	{ Matter.Body.applyForce(bob5.body,bob5.body.position,{x:100,y:100}); } 
 } 
