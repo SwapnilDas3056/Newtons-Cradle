@@ -10,7 +10,7 @@ var roof;
 function setup() {
 engine = Engine.create();
 world = engine.world;
-createCanvas(1300, 700);
+createCanvas(1000, 500);
 
 bob1=new Bob(300,350,50);
 bob2=new Bob(350,350,50);
