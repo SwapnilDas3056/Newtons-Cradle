@@ -49,6 +49,6 @@ text("Press the spacebar",100,100);
 }
 
 function keyPressed() { 
-	if (keyCode === SPACEBAR) 
+	if ((keyCode === UP_ARROW)||(keyCode === 32))
 	{ Matter.Body.applyForce(bob5.body,bob5.body.position,{x:100,y:100}); } 
 } 
